@@ -1,0 +1,16 @@
+{
+  "name": "polygon-editor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Polygon Editor built with Web Components and Canvas API",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.0"
+  }
+}
